@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{21CB6167-CE0F-4763-BCF0-9BBDF990D8CD}</ProjectGuid>
+    <ProjectGuid>{599A228A-BA73-481F-9A9E-25787786AFA3}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Laboratorium_1</RootNamespace>
-    <AssemblyName>Laboratorium_1</AssemblyName>
+    <RootNamespace>MainInitiatorProcess</RootNamespace>
+    <AssemblyName>MainInitiatorProcess</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,18 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cwiczenia\Helpers\HostNameFinder.cs" />
-    <Compile Include="Cwiczenia\Helpers\IpAddressFinder.cs" />
-    <Compile Include="Cwiczenia\Helpers\IPAddressVerifier.cs" />
-    <Compile Include="Cwiczenia\Helpers\PortVerifier.cs" />
-    <Compile Include="Cwiczenia\Helpers\Server.cs" />
-    <Compile Include="Cwiczenia\Helpers\ServerNameClassifier.cs" />
-    <Compile Include="Cwiczenia\Laboratorium 1\ZAD1_2.cs" />
-    <Compile Include="Cwiczenia\Helpers\Laboratorium1.cs" />
-    <Compile Include="Cwiczenia\Laboratorium 1\ZAD3.cs" />
-    <Compile Include="Cwiczenia\Laboratorium 1\ZAD4.cs" />
-    <Compile Include="Cwiczenia\Laboratorium 1\ZAD5.cs" />
-    <Compile Include="Cwiczenia\Laboratorium 1\ZAD6.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
